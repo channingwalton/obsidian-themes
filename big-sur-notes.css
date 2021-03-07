@@ -6,7 +6,7 @@
 */
 .theme-dark {
     --background-primary: rgb(30, 30, 30);
-    --background-primary-alt: #443a22;
+    --background-primary-alt: rgb(42, 45, 45);
     --background-secondary: rgb(42, 45, 45);
     --background-secondary-alt: rgb(54, 56, 56);
     --background-modifier-border: rgb(42, 45, 45);
