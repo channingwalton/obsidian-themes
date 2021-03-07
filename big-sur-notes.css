@@ -42,6 +42,7 @@
     --btn-highlight-bg: rgb(69, 71, 71);
     --btn-highlight-content: rgb(182, 184, 184);
     --divider-border: rgb(0, 0, 0);
+    --graph-view-color-line: #404040;
 }
 .theme-light {
     --background-primary: #ffffff;
@@ -82,11 +83,16 @@
     --btn-highlight-bg: #ddd;
     --btn-highlight-content: #666;
     --divider-border: rgb(235, 226, 228);
+    --graph-view-color-line: #d4d4d4;
 }
 
 html, body {
     font-family: "SF Pro", -apple-system,  sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+
+.graph-view.color-line {
+    color: var(--graph-view-color-line)
 }
 
 .markdown-preview-view code {
