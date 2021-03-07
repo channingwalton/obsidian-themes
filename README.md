@@ -13,3 +13,5 @@ You may also like to install the [SF Pro font from Apple](https://developer.appl
 Enjoy!
 
 ![Light Screenshot](/Screenshot-light.png?raw=true "Light")
+
+![Dark Screenshot](/Screenshot-dark.png?raw=true "Dark")
