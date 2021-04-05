@@ -1,58 +1,67 @@
-/* Typography I like inspired from http://matejlatin.github.io/Gutenberg/ */
-html, body {
-  font-family: "SF Pro", -apple-system,  sans-serif;
-    -webkit-font-smoothing: antialiased;
-  font-size: 14px;
-  line-height: 1.6rem;
+/* Typography inspired from http://matejlatin.github.io/Gutenberg/
+    All sizes are calculated from these few definitions.
+*/
+:root {
+  --root-font-size:14px;
+  --root-line-height:1.6;
+  --root-leading: calc(var(--root-font-size) * var(--root-line-height));
+  --root-margin-bottom: var(--root-leading);
+}
+
+body,p {
+  font-family: "SF Pro", -apple-system,  sans-serif; -webkit-font-smoothing: antialiased;
+  font-size: var(--root-font-size);
+  line-height: var(--root-line-height);
+  margin-bottom: var(--root-margin-bottom);
 }
 
 .markdown-preview-view h1 {
-    font-size: 250%;
-    line-height: 2.00rem;
-    margin-top: 4.00rem;
-    margin-bottom: 1.00rem;
-  }
+  font-size: calc(1.6 * var(--root-leading));
+  line-height: calc(1.6 * var(--root-leading));
+  margin-top: calc(1.6 * var(--root-leading));
+  margin-bottom: var(--root-leading);
+}
 
-  .markdown-preview-view h2 {
-    font-size: 168%;
-    line-height: 1.50rem;
-    margin-top: 2.50rem;
-    margin-bottom: .50rem;
-  }
+.markdown-preview-view h2 {
+  font-size: calc(1.4 * var(--root-leading));
+  line-height: calc(1.4 * var(--root-leading));
+  margin-top: calc(1.4 * var(--root-leading));
+  margin-bottom: calc(0.5 * var(--root-leading));
+}
 
-  .markdown-preview-view h3 {
-    font-size: 138%;
-    line-height: 1.00rem;
-    margin-top: 2.00rem;
-    margin-bottom: .50rem;
-  }
+.markdown-preview-view h3 {
+  font-size: calc(1.2 * var(--root-leading));
+  line-height: var(--root-leading);
+  margin-top: calc(1.2 * var(--root-leading));
+  margin-bottom: calc(0.5 * var(--root-leading));
+}
 
-  .markdown-preview-view h4 {
-    font-size: 120%;
-    line-height: 1.00;
-    margin-top: 1.50rem;
-    margin-bottom: .50rem;
-  }
+.markdown-preview-view h4 {
+  font-size: calc(1.0 * var(--root-leading));;
+  line-height: var(--root-leading);
+  margin-top: calc(1.0 * var(--root-leading));
+  margin-bottom: calc(0.5 * var(--root-leading));
+}
 
-  .markdown-preview-view h5 {
-    font-size: 100%;
-    line-height: 1.00;
-    margin-top: 1.00rem;
-    margin-bottom: .50rem;
-  }
+.markdown-preview-view h5 {
+  font-size: calc(0.9 * var(--root-leading));;
+  line-height: var(--root-leading);
+  margin-top: var(--root-leading);
+  margin-bottom: calc(0.5 * var(--root-leading));
+}
 
-  .markdown-preview-view h6 {
-    font-size: 100%;
-    line-height: 1.00;
-    margin-top: 1.00rem;
-    margin-bottom: .50rem;
-    font-style: italic;
-  }
+.markdown-preview-view h6 {
+  font-size: calc(0.8 * var(--root-leading));;
+  line-height: var(--root-leading);
+  margin-top: var(--root-leading);
+  margin-bottom: calc(0.5 * var(--root-leading));
+  font-weight: italic;
+}
 
-  .markdown-preview-view blockquote > p  {
-    font-style: italic;
-    line-height: 1.6rem;
-  }
+.markdown-preview-view blockquote > p  {
+  font-style: italic;
+  line-height: var(--root-leading);
+}
 
 /* End Typography */
 
@@ -96,6 +105,7 @@ html, body {
     --divider-border: rgb(0, 0, 0);
     --graph-view-color-line: #404040;
 }
+
 .theme-light {
     --background-primary: #ffffff;
     --background-primary-alt: #f5f6f8;
@@ -150,7 +160,7 @@ html, body {
     opacity: 0.5;
 }
 
-/* the input checkbox styling thanks to "kepano" from the obsidian forums - https://forum.obsidian.md/t/nicer-checkboxes/2238 */
+/* rounded checkbox styling thanks to "kepano" from the obsidian forums - https://forum.obsidian.md/t/nicer-checkboxes/2238 */
 input[type=checkbox] {
   -webkit-appearance: none;
   appearance: none;
@@ -166,7 +176,7 @@ input[type=checkbox]:checked {
   border: 1px solid var(--text-accent-hover);
   border-radius: 15px; /* to get a circular checkbox */
   background-position: center;
-  background-size: 70%;
+  background-size: calc(0.5 * var(--root-leading));
   background-repeat: no-repeat;
   background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
 }
@@ -176,12 +186,12 @@ input[type=checkbox]:checked {
 
 /* remove strike through from done tasks */
 .markdown-preview-view ul > li.task-list-item.is-checked {
-    text-decoration:none;
-    color:var(--text-normal);
-  }
-  
-  .markdown-preview-view ol > li.task-list-item.is-checked {
-    text-decoration:none;
-    color:var(--text-normal);
-  }
-  /* end remove strike through from done tasks */
+  text-decoration:none;
+  color:var(--text-normal);
+}
+
+.markdown-preview-view ol > li.task-list-item.is-checked {
+  text-decoration:none;
+  color:var(--text-normal);
+}
+/* end remove strike through from done tasks */
