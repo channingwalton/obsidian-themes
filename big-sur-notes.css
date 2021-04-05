@@ -4,6 +4,65 @@
 
   You may also like to install the SF Pro font from Apple: https://developer.apple.com/fonts/
 */
+
+/* Typography I like inspired from http://matejlatin.github.io/Gutenberg/ */
+html, body {
+  font-family: "SF Pro", -apple-system,  sans-serif;
+    -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+
+.markdown-preview-view h1 {
+    font-size: 250%;
+    line-height: 2.00rem;
+    margin-top: 4.00rem;
+    margin-bottom: 1.00rem;
+  }
+
+  .markdown-preview-view h2 {
+    font-size: 168%;
+    line-height: 1.50rem;
+    margin-top: 2.50rem;
+    margin-bottom: .50rem;
+  }
+
+  .markdown-preview-view h3 {
+    font-size: 138%;
+    line-height: 1.00rem;
+    margin-top: 2.00rem;
+    margin-bottom: .50rem;
+  }
+
+  .markdown-preview-view h4 {
+    font-size: 120%;
+    line-height: 1.00;
+    margin-top: 1.50rem;
+    margin-bottom: .50rem;
+  }
+
+  .markdown-preview-view h5 {
+    font-size: 100%;
+    line-height: 1.00;
+    margin-top: 1.00rem;
+    margin-bottom: .50rem;
+  }
+
+  .markdown-preview-view h6 {
+    font-size: 100%;
+    line-height: 1.00;
+    margin-top: 1.00rem;
+    margin-bottom: .50rem;
+    font-style: italic;
+  }
+
+  .markdown-preview-view blockquote > p  {
+    font-style: italic;
+    line-height: 1.6rem;
+  }
+
+/* End Typography */
+
 .theme-dark {
     --background-primary: rgb(30, 30, 30);
     --background-primary-alt: rgb(42, 45, 45);
@@ -86,11 +145,6 @@
     --graph-view-color-line: #d4d4d4;
 }
 
-html, body {
-    font-family: "SF Pro", -apple-system,  sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
 .graph-view.color-line {
     color: var(--graph-view-color-line)
 }
@@ -112,7 +166,7 @@ input[type=checkbox] {
   padding: 0;
 }
 input[type=checkbox]:focus{
-outline:0;
+  outline:0;
 }
 input[type=checkbox]:checked {
   background-color: var(--text-accent-hover);
@@ -127,7 +181,7 @@ input[type=checkbox]:checked {
 .markdown-preview-view .task-list-item { padding-inline-start:25px; }
 /* end checkbox styling */
 
-/* remove strikethrough from done tasks */
+/* remove strike through from done tasks */
 .markdown-preview-view ul > li.task-list-item.is-checked {
     text-decoration:none;
     color:var(--text-normal);
@@ -137,4 +191,4 @@ input[type=checkbox]:checked {
     text-decoration:none;
     color:var(--text-normal);
   }
-  /* end remove strikethrough from done tasks */
+  /* end remove strike through from done tasks */
