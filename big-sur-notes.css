@@ -1,10 +1,3 @@
-/* Install the big-sur theme https://github.com/davidgolding/obsidian-big-sur-aesthetic into <your vault>/.obsidian/themes
-   and put this snippet into <your vault>/.obsidian/snippets.
-   In Obisidian's preferences select the big sur theme and the big-sur-notes CSS snippet under the Appearance preferences.
-
-  You may also like to install the SF Pro font from Apple: https://developer.apple.com/fonts/
-*/
-
 /* Typography I like inspired from http://matejlatin.github.io/Gutenberg/ */
 html, body {
   font-family: "SF Pro", -apple-system,  sans-serif;
