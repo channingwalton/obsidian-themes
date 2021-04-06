@@ -152,7 +152,7 @@ body,p {
     color: var(--graph-view-color-line)
 }
 
-.markdown-preview-view code {
+.cm-s-obsidian .HyperMD-codeblock {
     color: var(--text-code);
 }
 
