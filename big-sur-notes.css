@@ -16,16 +16,16 @@ body,p {
 }
 
 .markdown-preview-view h1 {
-  font-size: calc(1.6 * var(--root-leading));
-  line-height: calc(1.6 * var(--root-leading));
-  margin-top: calc(1.6 * var(--root-leading));
+  font-size: calc(1.5 * var(--root-leading));
+  line-height: calc(1.5 * var(--root-leading));
+  margin-top: calc(1.5 * var(--root-leading));
   margin-bottom: var(--root-leading);
 }
 
 .markdown-preview-view h2 {
-  font-size: calc(1.4 * var(--root-leading));
-  line-height: calc(1.4 * var(--root-leading));
-  margin-top: calc(1.4 * var(--root-leading));
+  font-size: calc(1.3 * var(--root-leading));
+  line-height: calc(1.3 * var(--root-leading));
+  margin-top: calc(1.3 * var(--root-leading));
   margin-bottom: calc(0.5 * var(--root-leading));
 }
 
@@ -37,21 +37,21 @@ body,p {
 }
 
 .markdown-preview-view h4 {
-  font-size: calc(1.0 * var(--root-leading));;
+  font-size: calc(1.1 * var(--root-leading));;
   line-height: var(--root-leading);
-  margin-top: calc(1.0 * var(--root-leading));
+  margin-top: calc(1.1 * var(--root-leading));
   margin-bottom: calc(0.5 * var(--root-leading));
 }
 
 .markdown-preview-view h5 {
-  font-size: calc(0.9 * var(--root-leading));;
+  font-size: calc(1.0 * var(--root-leading));;
   line-height: var(--root-leading);
   margin-top: var(--root-leading);
   margin-bottom: calc(0.5 * var(--root-leading));
 }
 
 .markdown-preview-view h6 {
-  font-size: calc(0.8 * var(--root-leading));;
+  font-size: calc(0.9 * var(--root-leading));;
   line-height: var(--root-leading);
   margin-top: var(--root-leading);
   margin-bottom: calc(0.5 * var(--root-leading));
