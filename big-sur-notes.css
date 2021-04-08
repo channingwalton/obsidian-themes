@@ -156,6 +156,10 @@ body,p {
     color: var(--text-code);
 }
 
+.cm-s-obsidian span.cm-inline-code {
+  color: var(--text-code);
+}
+
 .status-bar:not(:hover) .status-bar-item {
     opacity: 0.5;
 }
