@@ -160,6 +160,10 @@ body,p {
   color: var(--text-code);
 }
 
+.markdown-preview-view code {
+  color: var(--text-code);
+}
+
 .status-bar:not(:hover) .status-bar-item {
     opacity: 0.5;
 }
