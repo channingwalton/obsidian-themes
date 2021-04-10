@@ -13,11 +13,11 @@ Enjoy!
 
 ### big-sur-notes.css
 
-![Light Screenshot](/Screenshot-light.png?raw=true "Light")
+![Light Screenshot](/Screenshot-notes-light.png?raw=true "Light")
 
-![Dark Screenshot](/Screenshot-dark.png?raw=true "Dark")
+![Dark Screenshot](/Screenshot-notes-dark.png?raw=true "Dark")
 
 ### blue-note.css
 
-![Light Screenshot](/Screenshot-light-blue-note.png?raw=true "Light")
+![Light Screenshot](/Screenshot-blue-note-light.png?raw=true "Light")
 
