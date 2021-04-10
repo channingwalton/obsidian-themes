@@ -9,6 +9,15 @@ You may also like to install the [SF Pro font from Apple](https://developer.appl
 
 Enjoy!
 
+## Screenshots
+
+### big-sur-notes.css
+
 ![Light Screenshot](/Screenshot-light.png?raw=true "Light")
 
 ![Dark Screenshot](/Screenshot-dark.png?raw=true "Dark")
+
+### blue-note.css
+
+![Light Screenshot](/Screenshot-light-blue-note.png?raw=true "Light")
+
