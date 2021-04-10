@@ -1,15 +1,11 @@
-# obsidian-themes
-
-My themes for [obsidian.md](https://obsidian.md/).
+# [Obsidian](https://obsidian.md/) Themes
 
 ## Installation
 
 1. Copy a theme file like [big-sur-notes.css](/big-sur-notes.css) to `your vault folder/.obsidian/themes`.
 2. In Obisidian's preferences select the theme (`big-sur-notes` for example) under the Appearance preferences.
 
-You might also like to install Matthew Meyers's [recommended plugins](https://github.com/mgmeyers/obsidian-california-coast-theme#recommended-plugins) to make Obsidian even better.
-
-You may also like to install the [SF Pro font from Apple](https://developer.apple.com/fonts/) which the theme selects ahead of defaults.
+You might also like to install Matthew Meyers's [recommended plugins](https://github.com/mgmeyers/obsidian-california-coast-theme#recommended-plugins) and [SF Pro font from Apple](https://developer.apple.com/fonts/) to make Obsidian even better.
 
 Enjoy!
 
