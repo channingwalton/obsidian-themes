@@ -1,6 +1,4 @@
-# obsidian-big-sur-notes-theme
-
-An obsidian theme based on Notes colours.
+# obsidian-themes
 
 ## Installation
 
