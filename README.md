@@ -1,5 +1,7 @@
 # obsidian-themes
 
+My themes for [obsidian.md](https://obsidian.md/).
+
 ## Installation
 
 1. Copy a theme file like [big-sur-notes.css](/big-sur-notes.css) to `your vault folder/.obsidian/themes`.
@@ -21,3 +23,4 @@ Enjoy!
 
 ![Light Screenshot](/Screenshot-blue-note-light.png?raw=true "Light")
 
+(I'm still fiddling with the dark theme.)
