@@ -254,7 +254,7 @@ li > p {
 /* navigation */
 
 .nav-file-title-content, .nav-folder-title-content {
-  line-height: calc(0.5 * var(--root-leading));
+  line-height: calc(0.6 * var(--root-leading));
 }
 
 /* end navigation */
@@ -282,3 +282,7 @@ input[type=checkbox]:checked {
 .markdown-preview-view .task-list-item-checkbox { margin-left:-25px; } 
 .markdown-preview-view .task-list-item { padding-inline-start:25px; }
 /* end checkbox styling */
+
+.workspace-leaf-resize-handle {
+  background-color: var(--background-secondary-alt);
+}
