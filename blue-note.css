@@ -253,8 +253,8 @@ li > p {
 
 /* navigation */
 
-.nav-file-title-content {
-  line-height: 1.2;
+.nav-file-title-content, .nav-folder-title-content {
+  line-height: calc(0.5 * var(--root-leading));
 }
 
 /* end navigation */
