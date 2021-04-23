@@ -3,8 +3,8 @@
 */
 
 :root {
-  --root-font-size:14px;
-  --root-line-height:1.6;
+  --root-font-size:1.0em;
+  --root-line-height:1.2;
   --root-leading: calc(var(--root-font-size) * var(--root-line-height));
   --root-margin-bottom: var(--root-leading);
 }
