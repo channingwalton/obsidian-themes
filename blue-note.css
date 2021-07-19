@@ -254,7 +254,7 @@ li > p {
 /* navigation */
 
 .nav-file-title-content, .nav-folder-title-content {
-  line-height: calc(0.6 * var(--root-leading));
+  line-height: calc(1.0 * var(--root-leading));
 }
 
 /* end navigation */
